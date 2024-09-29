@@ -33,8 +33,8 @@ To install zoffline on Linux, Windows, or macOS:
   * On Windows, installing Python via the Microsoft Store is highly recommend! If using a Python installer, ensure that in the first Python installer screen "Add Python 3.x to PATH" is checked.
 * Clone or download this repo
 * Install dependencies
-  * e.g., on Linux/Mac: ``pip3 install -r requirements.txt``
-  * e.g., on Windows in command prompt: ``pip install -r requirements.txt``
+  * e.g., on Linux/Mac: ``pip3 install -r requirements.txt``CN: ``pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple``
+  * e.g., on Windows in command prompt: ``pip install -r requirements.txt``CN: ``pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple``
     * You may need to use ``C:\Users\<username>\AppData\Local\Programs\Python\Python<version>\Scripts\pip.exe`` instead of just ``pip``
 * If you are not running zoffline on the same PC that Zwift is running: create a ``server-ip.txt`` file in the ``storage`` directory containing the IP address of the PC running zoffline.
 * Run standalone.py before starting Zwift
